@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dancing Script', cursive;
+}
+html,body{
+height: 100%;
+width: 100%;
+background-image: url(https://wallpapercave.com/wp/B69mUA6.jpg)
+}
+div{
+    height: 100%;
+    width: 50%;
+    background-color: #fff;
+    position: absolute;
+    text-align: center;
+    padding: 5%;
+    animation: divanim 2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    background-image: url(https://th.bing.com/th/id/Ra4e83a65fc8a0328a789b1cd843a8fb5?rik=CKtPCNdgTRg8Qg&riu=http%3a%2f%2f4.bp.blogspot.com%2f-787JaTircTU%2fTgDEq3MGtGI%2fAAAAAAAAFRM%2fWU-64lgRA7Q%2fs1600%2fcool%252Bforest%252Bwallpapers%252B%25252887%252529.jpg&ehk=AHl6oZxAJdk52%2fODvypqVW56bcb4I%2fpboJyN8XIYZEM%3d&risl=&pid=ImgRaw);
+    background-size: cover;
+    backdrop-filter: blur(5px);
+}
+button{
+    height: 35px;
+    width: 100px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    animation: btnanim 4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    cursor: pointer;
+}
+@keyframes divanim {
+    from{
+    transform: translateX(-150);
+    opacity: 0;
+    } 
+    to {
+     transform: translateX(0);
+     opacity: 1;
+    }
+}
+@keyframes btnanim {
+    from{
+    transform: translateX(-150);
+    opacity: 0;
+    } 
+    to {
+     transform: translateX(0);
+     opacity: 1;
+    }
+}
+button{
+    height: 35px;
+    width: 100px;
+    background-color: black;
+    color: #fff;
+}
+p{
+    backdrop-filter: blur(5px);
+    color: bisque;
+}

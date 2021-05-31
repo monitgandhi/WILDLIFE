@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Indie Flower', cursive;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://wallup.net/wp-content/uploads/2017/03/15/162484-nature-water-river-forest.jpg);
+    background-size: cover;
+    background-position: center;
+}
+div{
+    height: 80%;
+    width: 80%;
+    background-image: url(https://th.bing.com/th/id/Rcb521653947c652c085c54b9d82fecd5?rik=H80t9WKgTLPD1g&riu=http%3a%2f%2fwww.zastavki.com%2fpictures%2foriginals%2f2015%2fNature___Forest_Lonely_palm_tree_in_the_jungle_096016_.jpg&ehk=aZ8PgJbFDeo0uP7MWtj8da20NauXEq%2fWGF9P32CoBIQ%3d&risl=&pid=ImgRaw);
+    backdrop-filter: blur(5px);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 10%;
+    animation: divanim 2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    padding: 5%;
+}
+p{
+    font-weight: 400;
+    font-size: 40px;
+    animation: textanim 3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    color: bisque;
+}
+button{
+    height: 35px;
+    width: 100px;
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+}
+h1{
+    background-color: greenyellow;
+}
+@keyframes divanim{
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes textanim{
+    from {
+        transform: translateY(-150);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}   
+
